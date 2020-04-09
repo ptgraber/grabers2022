@@ -1,14 +1,14 @@
-uuid: 62f41c23-b765-4f0b-bea7-a4904bfa21c0
-name: Grabers
+uuid: d5d3ecac-ae21-435a-8a23-990e96a52d51
+name: 'Grabers 2020'
 mail: peter@grabers.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

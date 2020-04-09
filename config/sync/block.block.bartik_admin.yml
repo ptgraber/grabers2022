@@ -1,24 +1,24 @@
-uuid: 00bb9777-6302-496b-a073-a27269451df4
+uuid: 8be2dc73-4b6b-41f4-ab83-c5ddffa6e580
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.tools
+    - system.menu.admin
   module:
     - system
   theme:
     - bartik
 _core:
-  default_config_hash: uUF2GYN2x5fcmOu26M-gwqUA-yVWMDD_MRmnYfmPzlM
-id: bartik_tools
+  default_config_hash: OFEDxrButmQ8Vac1kiVr1gtw6vYKuSJPr9cJQZVKCKg
+id: bartik_admin
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: 1
 provider: null
-plugin: 'system_menu_block:tools'
+plugin: 'system_menu_block:admin'
 settings:
-  id: 'system_menu_block:tools'
-  label: Tools
+  id: 'system_menu_block:admin'
+  label: Administration
   provider: system
   label_display: visible
   level: 1
