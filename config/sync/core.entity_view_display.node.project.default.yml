@@ -1,0 +1,35 @@
+uuid: 264ad69e-f6c6-4e56-a270-2c44c2ee4714
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project.body
+    - node.type.project
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
