@@ -1,0 +1,22 @@
+uuid: 7275af61-538a-44a3-ba1d-e0e5eac8298e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oscar
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: oscar_local_tasks
+theme: oscar
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

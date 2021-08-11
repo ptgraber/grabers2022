@@ -1,0 +1,22 @@
+uuid: fdfd822d-5f56-4e16-b879-3cbfcfe32261
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oscar
+_core:
+  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+id: oscar_messages
+theme: oscar
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

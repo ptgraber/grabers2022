@@ -1,0 +1,20 @@
+uuid: f389bc2e-7991-4903-a6a9-ba519e4bdc21
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oscar
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: oscar_local_actions
+theme: oscar
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

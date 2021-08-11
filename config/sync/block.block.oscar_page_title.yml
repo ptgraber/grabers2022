@@ -1,0 +1,20 @@
+uuid: 5ed8b37a-4235-4ba1-ac3f-e7dc5370d609
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oscar
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: oscar_page_title
+theme: oscar
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

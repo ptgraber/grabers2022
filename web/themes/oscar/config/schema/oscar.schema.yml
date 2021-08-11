@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Oscar theme.
+oscar.settings:
+  type: theme_settings
+  label: 'Oscar settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size
