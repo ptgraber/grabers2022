@@ -1,2 +1,2 @@
 # grabers2020
-Grabers Redev
+This is the redevelopment repository for Grabers.com
