@@ -1,0 +1,22 @@
+uuid: 47c9abd3-517d-4b65-8d6f-4818b6f48a3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - g2022
+_core:
+  default_config_hash: bH3KqT6adtfbHcwGE-frpAtCv8PrqNP4wkb0eTSCkD4
+id: g2022_help
+theme: g2022
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

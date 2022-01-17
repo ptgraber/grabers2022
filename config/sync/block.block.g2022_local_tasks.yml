@@ -1,0 +1,22 @@
+uuid: 76e45dd9-bf0f-4011-9931-326b9af645ac
+langcode: en
+status: true
+dependencies:
+  theme:
+    - g2022
+_core:
+  default_config_hash: UeD6LpMMsoIaftRd7dcm_34jfZDRkGh-VowTJ8Pj0Ls
+id: g2022_local_tasks
+theme: g2022
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

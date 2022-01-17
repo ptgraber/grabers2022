@@ -1,0 +1,25 @@
+uuid: eefe364e-cb93-4148-92ea-e7d6cdc44b79
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - g2022
+id: g2022_mainnavigation
+theme: g2022
+region: navbar
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

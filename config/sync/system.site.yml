@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c02c1b7c-bf73-49e2-bf79-89d021854190
+name: Grabers
+mail: peter@grabers.com
+slogan: 'Communications + Marketing + Code'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

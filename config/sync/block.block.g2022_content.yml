@@ -1,0 +1,22 @@
+uuid: 0be7bf19-dfb0-437c-8f01-010415ba6065
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - g2022
+_core:
+  default_config_hash: 2Zm3sNLndIBMUNjQ06pQe_cDN1jIxMdFhL2EpzsCyis
+id: g2022_content
+theme: g2022
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

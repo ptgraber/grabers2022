@@ -1,0 +1,22 @@
+uuid: a0540112-b190-4652-85ff-94572143f887
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - g2022
+_core:
+  default_config_hash: E88kZALM9sVeaPH47lyq1zGVNBcalry6Oz1KBAB1l0c
+id: g2022_messages
+theme: g2022
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

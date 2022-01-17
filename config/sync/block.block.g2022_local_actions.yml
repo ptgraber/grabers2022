@@ -1,0 +1,20 @@
+uuid: 65d62bc4-7e67-4599-86b2-65cb3d88d318
+langcode: en
+status: true
+dependencies:
+  theme:
+    - g2022
+_core:
+  default_config_hash: aHcLAHVlqImoWiCRfNki5GjL-N8LpP0sqE_ULXluN7M
+id: g2022_local_actions
+theme: g2022
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

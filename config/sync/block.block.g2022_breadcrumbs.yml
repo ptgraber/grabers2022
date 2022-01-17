@@ -1,0 +1,22 @@
+uuid: 29c8a874-2a30-41f9-9a71-6bcc3af562eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - g2022
+_core:
+  default_config_hash: gVAdTFIVDVBEkKwf92s60qQxHrlrxSfsASOK5A9W2Us
+id: g2022_breadcrumbs
+theme: g2022
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

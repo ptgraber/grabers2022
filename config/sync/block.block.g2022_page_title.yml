@@ -1,0 +1,20 @@
+uuid: c4c0c6da-c918-4593-aee5-95e25cb936d3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - g2022
+_core:
+  default_config_hash: vE5kgVKYDCdDj8WqzYjVdqBpeqfMXlmueT_BLVdMIpc
+id: g2022_page_title
+theme: g2022
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

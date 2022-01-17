@@ -1,0 +1,27 @@
+uuid: 12452ccb-5503-45be-9249-bef27c6d7e81
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - g2022
+_core:
+  default_config_hash: fSiwMKfDL5oteR_z5xqcnu6bnrrlUv_PoN17yjwoTPE
+id: g2022_tools
+theme: g2022
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
